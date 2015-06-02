@@ -6,11 +6,19 @@ body {
 color: white;
 }
 
+a {
+color: #0dd
+}
+
 h1 {
 	color: cyan;
 	font-family: "Trebuchet MS", Gadget, sans-serif;
 	font-size: 3em;
 	text-align: center;
+}
+
+.largetext {
+	font-size: 120%;
 }
 
 .button {
@@ -22,3 +30,18 @@ h1 {
 	border: 2px inset #0bb; 
 }
 
+.homeworktable {
+	margin: 0px auto;
+	border-spacing: 0px;
+}
+.homeworktable>tbody>tr>td {
+	border-bottom: 1px solid #999;
+	padding: 10px;
+}
+
+.homeworktable>tbody>tr>th {
+	text-align: left;
+	background-color: #111;
+	border-bottom: 2px solid #0cc;
+	padding-top: 15px;
+}
