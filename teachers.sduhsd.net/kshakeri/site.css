@@ -12,3 +12,13 @@ h1 {
 	font-size: 3em;
 	text-align: center;
 }
+
+.button {
+	/*background-color: #055;*/
+	border-bottom: 1px solid #ddd; 
+}
+
+.button:hover {
+	border: 2px inset #0bb; 
+}
+
