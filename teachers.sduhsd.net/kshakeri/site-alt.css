@@ -1,17 +1,20 @@
 body {
-	background-color: #eee;
+	background-color: black;
+}
+
+* {
+color: white;
 }
 
 a {
-color: darkblue;
+color: #0dd;
 }
 
 h1 {
-	font-family: Tahoma, Geneva, sans-serif;
-	font-size: 2.5em;
-	text-align: left;
-	padding-left: 5%;
-	border-bottom: 3px solid blue;
+	color: cyan;
+	font-family: "Trebuchet MS", Gadget, sans-serif;
+	font-size: 3em;
+	text-align: center;
 }
 
 .largetext {
