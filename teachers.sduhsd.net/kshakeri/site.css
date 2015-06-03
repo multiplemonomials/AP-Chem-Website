@@ -20,11 +20,11 @@ h1 {
 
 .button {
 	/*background-color: #055;*/
-	border-bottom: 1px solid #ddd; 
+	border-bottom: 1.5px solid black; 
 }
 
 .button:hover {
-	border: 2px inset #0bb; 
+	border-bottom: 1.5px inset blue; 
 }
 
 .homeworktable {
@@ -38,7 +38,7 @@ h1 {
 
 .homeworktable>tbody>tr>th {
 	text-align: left;
-	background-color: #111;
+	background-color: #ddd;
 	border-bottom: 2px solid #0cc;
 	padding-top: 15px;
 }

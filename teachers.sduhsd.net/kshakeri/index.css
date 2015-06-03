@@ -9,13 +9,18 @@
 
 #classestable {
 	margin: 0px auto;
-	border-spacing: 2px;
+	border-spacing: 10px 0px;
 
 }
 
 #classestable>thead>tr>th {
-	background-color: #111;
 	border-bottom: 2px solid darkgrey;
+	padding: 5px;
+	border-left: 2px solid blue;
+}
+
+#classestable>tbody>tr>td {
+	border-left: 2px solid blue;
 	padding: 5px;
 }
 
