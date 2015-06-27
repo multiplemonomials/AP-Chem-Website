@@ -1,0 +1,22 @@
+/* Special rues for the "links" pages */
+
+h2 {
+	text-align: left;
+}
+
+h3 {
+	font-size: 1.25em;
+	padding-left: 30px;
+}
+
+ol>li {
+	color: red;
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 20px;
+}
+
+a {
+	color: white;
+}
