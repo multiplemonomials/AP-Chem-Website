@@ -28,7 +28,7 @@ h1 {
 .button {
 	/*background-color: #055;*/
 	
-	/* avoid the element moving by a pixel or two when hovered over */
+	/* add side and top borders avoid the element moving by a pixel or two when hovered over */
 	border: 2px solid transparent;
 	
 	border-bottom: 1px solid #ddd; 
@@ -63,4 +63,20 @@ h1 {
 	background-color: #111;
 	border-bottom: 2px solid #0cc;
 	padding-top: 15px;
+}
+
+table.homeworkproblems {
+	margin: 20px;
+	border-spacing: 0px;
+	background-color: #333;
+}
+table.homeworkproblems>tbody>tr>td {
+	border-bottom: 1px solid #999;
+	border-right: 2px solid green;
+	padding: 10px;
+}
+
+table.homeworkproblems>tbody>tr>td+td {
+	border-right: none;
+	padding: 10px;
 }
