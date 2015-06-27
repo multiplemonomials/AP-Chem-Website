@@ -1,0 +1,47 @@
+/*
+	Adapted from the Frontpage-generated CSS
+*/
+
+a {
+	color: #FFFFFF;
+}
+
+p{
+	text-align: center;
+	color: #00FFFF;
+	font-family: Aharoni;
+	font-size: large;
+}
+#indextable {
+	border: 4px solid #00FFFF;
+	margin: 0 auto;
+	border-spacing: 0px;
+}
+
+#indextable>tbody>tr>td {
+	color: #00FFFF;
+	text-align: center;
+	border-bottom: 4px solid #00FFFF;
+	border-right: 2px solid white;
+	padding: 5px;
+}
+
+#indextable>tbody>tr:last-child>td {
+	border-bottom: none;
+}
+
+#indextable>tbody>tr>td:last-child {
+	border-right: none;
+}
+
+#content {
+	text-align: center;
+	width: 82%;
+	float: left;
+}
+
+#surfline-widget {
+	margin-top: 30px;
+	margin-right: 10px;
+	float: right;
+}

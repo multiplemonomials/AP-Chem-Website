@@ -21,6 +21,13 @@ h1 {
 	text-align: center;
 }
 
+h2 {
+	color: lightgreen;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 2.25em;
+	text-align: center;
+}
+
 .largetext {
 	font-size: 120%;
 }
