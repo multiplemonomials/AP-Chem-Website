@@ -66,17 +66,23 @@ h1 {
 }
 
 table.homeworkproblems {
-	margin: 20px;
+	margin: 15px;
+	margin-left: 0px;
 	border-spacing: 0px;
 	background-color: #333;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
 }
 table.homeworkproblems>tbody>tr>td {
 	border-bottom: 1px solid #999;
-	border-right: 2px solid green;
+	border-right: 1px solid #999;
 	padding: 10px;
 }
 
-table.homeworkproblems>tbody>tr>td+td {
+table.homeworkproblems>tbody>tr>td:first-child{
+	border-right: 2px solid green;
+}
+
+table.homeworkproblems>tbody>tr>td:last-child{
 	border-right: none;
-	padding: 10px;
 }
