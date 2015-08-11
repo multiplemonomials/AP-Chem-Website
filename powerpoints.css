@@ -1,0 +1,39 @@
+.ppttable {
+	margin: 0px auto;
+	border-spacing: 0px;
+	width: 90%;
+}
+.ppttable>tbody>tr>td {
+	border-bottom: 1px solid #999;
+	border-right: 1px solid #999;
+	padding: 10px;
+	padding-left: 20px;
+}
+
+/* center the "chapter" column */
+.ppttable>tbody>tr>td:first-child {
+	text-align: center;
+	/*color: red;*/
+	border-left: 1px solid #999;
+}
+
+
+.ppttable>tbody>tr>th {
+	text-align: left;
+	background-color: #222;
+	border-bottom: 2px solid #0cc;
+	padding-top: 15px;
+	padding-left: 20px;
+}
+
+#chapterheader {
+	width: 10%;
+}
+
+#topicheader {
+	width: 75%;
+}
+
+#dateheader {
+	width: 15%;
+}

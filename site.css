@@ -39,7 +39,7 @@ h2 {
 .button {
 	/*background-color: #055;*/
 	
-	/* add side and top borders avoid the element moving by a pixel or two when hovered over */
+	/* add side and top borders to avoid the element moving by a pixel or two when hovered over */
 	border: 2px solid transparent;
 	
 	border-bottom: 1px solid #ddd; 
