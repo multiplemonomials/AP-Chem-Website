@@ -5,38 +5,9 @@
 	<link rel="stylesheet" type="text/css" href="../../site.css">
 	<title>AP Chem Handouts</title>
 <style type="text/css">
-.style1 {
-				color: #FFFFFF;
-				font-weight: bold;
-}
-.style2 {
-				color: #FFFFFF;
-}
-.style4 {
-				color: #00FF00;
-}
-.style5 {
-				font-size: medium;
-				color: #00FFFF;
-				font-weight: bold;
-}
-.style6 {
-				color: #FF00FF;
-}
-.style8 {
-				font-size: xx-large;
-				color: #C0C0C0;
-}
-.style7 {
-				color: #00FFFF;
-}
-
-.style11 {
-				font-size: small;
-				color: #FFFFFF;
-}
 .greentext {
 	color: #0F0;
+	font-weight: bold;
 }
 .purpletext {
 	color: #F0F;
@@ -49,10 +20,15 @@
 	color: red;
 }
 
+.cyantext {
+	color: cyan;
+}
+
 .handouttable {
 	border: 1px solid white;
 	margin: 0 auto;
 	border-spacing: 0px;
+	width: 95%;
 }
 
 th, td {
@@ -88,6 +64,14 @@ table.handouttable>tbody>tr>td:last-child {
 table.handouttable>tbody>tr:last-child>td{
 	border-bottom: none;
 }
+
+#leftcolumnheader {
+	width: 40%;
+}
+
+#rightcolumnheader {
+	width: 60%;
+}
 </style>
 </head>
 
@@ -95,10 +79,10 @@ table.handouttable>tbody>tr:last-child>td{
 <h1>Class Handouts</h1>
 <table class="handouttable">
 	<tr>
-		<td class="topic greentext"> 
+		<td class="topic greentext" id="leftcolumnheader"> 
 			Topic
 		</td>
-		<td class="topic yellowtext">
+		<td class="topic yellowtext" id="rightcolumnheader">
 			Handout
 		</td>
 	</tr>
@@ -159,7 +143,7 @@ table.handouttable>tbody>tr:last-child>td{
 	<tr>
 		<td class="yellowtext">Bonding 
 		Review</td>
-		<td width="348" align="center" height="41"><font color="#FFFF00">
+		<td  height="41"><font color="#FFFF00">
 		<a href="AP%20Free%20Response%20Questions/BONDING.doc">Bonding 
 		Review </a> </td>
 	</tr>
@@ -198,7 +182,7 @@ table.handouttable>tbody>tr:last-child>td{
 	<tr>
 		<td class="yellowtext">Organic Review
 		</td>
-		<td width="348" align="center">
+		<td>
 		<a href="AP%20Free%20Response%20Questions/ORGANIC.doc">Organic Review
 		</a></td>
 	</tr>
@@ -252,7 +236,7 @@ table.handouttable>tbody>tr:last-child>td{
 		1994 MC</a></b></td>
 	</tr>
 	<tr>
-		<td align="center" class="redtext">Multiple Choice Answer 
+		<td class="redtext">Multiple Choice Answer 
 		Sheet</td>
 		<td>
 		<b>
@@ -281,7 +265,7 @@ table.handouttable>tbody>tr:last-child>td{
 		<th colspan="2">Chapters 7, 8, 9, 10</th>
 	</tr>
 	<tr>
-		<td>Last year test Questions</td>
+		<td class="greentext">Last year test Questions</td>
 		<td>
 			<b>Old chapter 9 and 10 test with thermochem</b>
 			<p>
@@ -303,26 +287,28 @@ table.handouttable>tbody>tr:last-child>td{
 		</td>
 	</tr>
 	<tr>
-		<td><b>Chapter 9</b></td>
-		<td width="518" align="center"><b>
+		<td class="greentext">Chapter 9</b></td>
+		<td>
 		<a href="../../chemistry_pages/Handouts/Spring_2009/Unit_3_bonding/molecular_geometry_WS.pdf">
-		Molecular Geometry Handout</a></b></td>
+		Molecular Geometry Handout</a></td>
 	</tr>
 	<tr>
-		<td width="348" align="center" height="48"><font color="#FF00FF"><b>Chapter 9 
-		and 10</b></td>
-		<td width="518" align="center" height="48">
-		<b>
-		<a href="AP_Review/AP%20questions%20orbitals%20bonding%20chapter%209%20and%2010.ppt">
-		MC Review</a></b><br>
-		<br>
-		<a href="Chapter_10/Chapter%208%20%26%209%20Help%20Sheet.doc">
-		<span class="style2">Help Sheet</span></a></td>
+		<td class="greentext">
+			Chapter 9 and 10
+		</td>
+		<td>
+			<b>
+			<a href="AP_Review/AP%20questions%20orbitals%20bonding%20chapter%209%20and%2010.ppt">
+			MC Review</a></b><br>
+			<br>
+			<a href="Chapter_10/Chapter%208%20%26%209%20Help%20Sheet.doc">
+			<span class="style2">Help Sheet</span></a>
+		</td>
 	</tr>
 	<tr>
-		<td width="348" align="center"><b><font color="#00FF00">Chapter 7 and 8
-		</b></td>
-		<td width="518" align="center"><b>
+		<td class="greentext">Chapter 7 and 8
+		</td>
+		<td><b>
 		<a href="Chapter_7_Quantum_Theory/Chapter%206%20%26%207%20Help%20Sheet.doc">
 		Help Sheet</a></b><p>
 		<b>
@@ -340,317 +326,281 @@ table.handouttable>tbody>tr:last-child>td{
 		AP FRQ Review Page 2</a></b></td>
 	</tr>
 	<tr>
-		<td width="348" align="center"><font size="7" color="#C0C0C0"><i>Chapter 
-		11, 12</i></td>
-		<td width="518" align="center">
-		<font size="7" color="#C0C0C0"><i>Chapter 11, 12</i></td>
+		<th colspan="2">Chapter 
+		11, 12</th>
 	</tr>
 	<tr>
-		<td width="348" align="center">
-		<font color="#00FFFF"><b>Chapter 11 and 12</b></td>
-		<td width="518" align="center"><b>
-		<a href="AP_Review/Chapter%2011%20and%2012%20AP%20questions.ppt">
-		Chapter 11 and 12 AP Review</a></b></td>
+		<td>
+			Chapter 11 and 12
+		</td>
+		<td>
+			<a href="AP_Review/Chapter%2011%20and%2012%20AP%20questions.ppt">
+			Chapter 11 and 12 AP Review</a>
+		</td>
 	</tr>
 	<tr>
-		<td width="348" align="center">
-		<font color="#00FFFF"><b>Chapter 11 and 12</b></td>
-		<td width="518" align="center">
-		<b>
-		<a href="Chapter_12/Chapter%2011%20%26%2013%20Help%20Sheet.doc">
-		Chapter 11, 12 Help Sheet</a></b></td>
+		<td>Chapter 11 and 12</td>
+		<td>
+			<a href="Chapter_12/Chapter%2011%20%26%2013%20Help%20Sheet.doc">
+			Chapter 11, 12 Help Sheet</a></td>
 	</tr>
 	<tr>
-		<td width="348" align="center"><font size="7" color="#C0C0C0"><i>Chapter 
-		21</i></td>
-		<td width="518" align="center">
-		<font size="7" color="#C0C0C0"><i>Chapter 21</i></td>
+		<th colspan="2">
+		Chapter 21
+		</th>
 	</tr>
 	<tr>
-		<td width="348" align="center">&nbsp;</td>
-		<td width="518" align="center" class="style6">
-		&nbsp;</td>
+		<td class="purpletext">Nuclear Chemistry</td>
+		<td>
+			<a href="chapter_21/chap21notes.pdf">Nuclear Chemistry Notes</a>
+		</td>
 	</tr>
 	<tr>
-		<td width="348" align="center">
-		<font color="#00FFFF"><b>Nuclear Chemistry</b></td>
-		<td width="518" align="center">
-		<b><a href="chapter_21/chap21notes.pdf">
-		Nuclear Chemistry Notes</a></b></td>
+		<td class="purpletext">
+			Nuclear Chemistry FRQ Homework
+		</td>
+		<td>
+			<a href="chapter_21/NUCLEAR%20no%20answers.doc">Nuclear FRQ</a>
+		</td>
 	</tr>
 	<tr>
-		<td width="348" align="center">
-		<font color="#00FFFF"><b>Nuclear Chemistry FRQ Homework</b></td>
-		<td width="518" align="center">
-		<b><a href="chapter_21/NUCLEAR%20no%20answers.doc">
-		Nuclear FRQ</a></b></td>
+		<th colspan="2">Chapter 5</th>
 	</tr>
 	<tr>
-		<td width="348" align="center"><font size="7" color="#C0C0C0"><i>Chapter 
-		5</i></td>
-		<td width="518" align="center">
-		<font size="7" color="#C0C0C0"><i>Chapter 5</i></td>
-	</tr>
-	<tr>
-		<td width="348" align="center">
-		<font color="#00FFFF"><b>Chapter 5</b></td>
-		<td width="518" align="center">
-		<b>
+		<td>
+		Chapter 5</td>
+		<td>
 		<a href="Chapter_5_Gases/Chapter%2010%20Help%20Sheet.doc">
-		Chapter 5 Help Sheet</a></b></td>
+		Chapter 5 Help Sheet</a></td>
 	</tr>
 	<tr>
-		<td width="348" align="center">
-		<font color="#00FFFF"><b>Chapter 5</b></td>
-		<td width="518" align="center">
-		<a href="Chapter_5_Gases/Gas%20Laws%20Take-Home%20Test.doc">
-		<b>
-		Chapter 5 </b><span class="style2">FRQ 
-		Problems</span></a><br>
-		<a href="Chapter_5_Gases/1990%20B%20Answer.pdf">Key</a></td>
+		<td>Chapter 5</td>
+			<td>
+			<a href="Chapter_5_Gases/Gas%20Laws%20Take-Home%20Test.doc">
+			Chapter 5 
+			FRQ Problems</a><br>
+			<a href="Chapter_5_Gases/1990%20B%20Answer.pdf">Key</a>
+		</td>
 	</tr>
 	<tr>
-		<td width="348" align="center" height="31"><b><font color="#FF00FF">Lab</b></td>
-		<td width="518" align="center" height="31"><b>
-		<a href="Lab/MolarMassButane.pdf">Molar Mass of 
-		Butane Lab</a></b></td>
+		<td class="purpletext">Lab</td>
+		<td>
+			<a href="Lab/MolarMassButane.pdf">Molar Mass of Butane Lab</a>
+		</td>
 	</tr>
 	<tr>
-		<td width="348" align="center" height="31"><b><font color="#FF00FF">Lab</b></td>
-		<td width="518" align="center" height="31"><b>
-		<a href="Lab/Molar_Volume_of_Gas.pdf">Molar 
-		Volume of a Gas</a></b></td>
+		<td class="purpletext">Lab</td>
+		<td>
+			<a href="Lab/Molar_Volume_of_Gas.pdf">Molar 
+			Volume of a Gas</a>
+		</td>
 	</tr>
 	<tr>
-		<td width="348" align="center"><font size="7" color="#C0C0C0"><i>Chapter 
-		20</i></td>
-		<td width="518" align="center">
-		<font size="7" color="#C0C0C0"><i>Chapter 20</i></td>
+		<th colspan="2">Chapter 20</th>
 	</tr>
 	<tr>
-		<td width="348" align="center">
-		<font color="#00FFFF"><b>Chapter 20</b></td>
-		<td width="518" align="center">
-		<b>
-		<a href="chapter_20/Chapter%2020%20%20Help%20Sheet.doc">
-		Chapter 20 Help Sheet</a></b></td>
+		<td> Chapter 20 </td>
+		<td>
+			<a href="chapter_20/Chapter%2020%20%20Help%20Sheet.doc">
+			Chapter 20 Help Sheet</a>
+		</td>
 	</tr>
 	<tr>
-		<td width="348" align="center" class="style6">Chapter 20 Review</td>
-		<td width="518" align="center">
-		<a href="electrochemistry%20AP%20MC.doc">Chapter 20 Review</a><br>
-		<a href="chapter_20/electrochemistry%20AP%20MC.doc">WS with KEY</a></td>
+		<td class="purpletext">Chapter 20 Review</td>
+		<td>
+			<a href="electrochemistry%20AP%20MC.doc">Chapter 20 Review</a><br>
+			<a href="chapter_20/electrochemistry%20AP%20MC.doc">WS with KEY</a>
+		</td>
 	</tr>
 	<tr>
-		<td width="348" align="center"><font size="7" color="#C0C0C0"><i>Chapter 
-		1</i>4</td>
-		<td width="518" align="center">
-		<font size="7" color="#C0C0C0"><i>Chapter 1</i>4</td>
+		<th colspan="2">Chapter 14</th>
 	</tr>
 	<tr>
-		<td width="348" align="center">
-		<font color="#00FFFF"><b>Chapter 14</b></td>
-		<td width="518" align="center">
-		<b>
-		<a href="Chapter%2014%20Help%20Sheet%5b1%5d.doc">
-		Chapter 14 Help Sheet</a></b></td>
+		<td>Chapter 14</td>
+		<td>
+			<a href="Chapter%2014%20Help%20Sheet%5b1%5d.doc">
+			Chapter 14 Help Sheet</a>
+		</td>
 	</tr>
 	<tr>
-		<td width="348" align="center" class="style5">LAB</td>
-		<td width="518" align="center" class="style1">
-		<span class="style2"><a href="Lab/Kinetics%20Lab.pdf">Kinetics Lab</a></span></td>
+		<td  class="greentext"><b>LAB</b></td>
+		<td>
+			<a href="Lab/Kinetics%20Lab.pdf">Kinetics Lab</a>
+		</td>
 	</tr>
 	<tr>
-		<td width="348" align="center" class="style6">Chapter 14 Review (ignore 
+		<td class="purpletext">Chapter 14 Review (ignore 
 		equilibrium Q's)</td>
-		<td width="518" align="center">
-		<a href="AP_Review/Chapter%2014%20and%2015%20Review.ppt">Chapter 14 
-		review</a></td>
+		<td>
+			<a href="AP_Review/Chapter%2014%20and%2015%20Review.ppt">Chapter 14 
+			review</a>
+		</td>
 	</tr>
 	<tr>
-		<td width="348" align="center"><font size="7" color="#C0C0C0"><i>Chapter 
-		19</i></td>
-		<td width="518" align="center">
-		<font size="7" color="#C0C0C0"><i>Chapter 19</i></td>
+		<th colspan = "2">Chapter 19</th>
 	</tr>
 	<tr>
-		<td class="yellowtext">Thermodynamics 
-		Review </td>
+		<td class="yellowtext">Thermodynamics Review </td>
 		<td class="yellowtext">
-		<a href="AP%20Free%20Response%20Questions/THERMDYN.doc">Thermodynamics 
-		Review </a> </td>
+			<a href="AP%20Free%20Response%20Questions/THERMDYN.doc">Thermodynamics Review </a> 
+		</td>
 	</tr>
 	<tr>
-		<td width="348" align="center">
-		<font color="#00FFFF"><b>Chapter 6 and 19</b></td>
-		<td width="518" align="center"><b>
-		<a href="AP_Review/Chapter%206%20and%2019%20AP%20Questions.ppt">
-		Chapter 6 and 19 AP Review</a></b></td>
+		<td><b>Chapter 6 and 19</b></td>
+		<td><b>
+			<a href="AP_Review/Chapter%206%20and%2019%20AP%20Questions.ppt">
+			Chapter 6 and 19 AP Review</a></b>
+		</td>
 	</tr>
 	<tr>
-		<td width="348" align="center" height="26">
-		<font color="#FFFF00">Chapter 6 and 19 test last year</td>
-		<td width="518" align="center" height="26"><p class="style1">
-		Keep in mind that the test has some 9 and 10 material as well.&nbsp; You 
-		may try it but this will not be on the test tomorrow.</p>
-		<p>
-		<b>
-		<a href="Tests/Test%203%20chapter%206%2c%209%2c%2010%20and%2019.doc">
-		Form A</a></b></p>
-		<p><b>
-		<a href="Tests/Test%203%20chapter%206%2c%209%2c%2010%20and%2019%20key.doc">
-		key</a></b></p>
-					</td>
+		<td class="yellowtext">Chapter 6 and 19 test last year</td>
+		<td>
+			Keep in mind that the test has some 9 and 10 material as well.&nbsp; You 
+			may try it but this will not be on the test tomorrow.</p>
+			<p><b>
+			<a href="Tests/Test%203%20chapter%206%2c%209%2c%2010%20and%2019.doc">Form A</a>
+			</b></p>
+			<p><b>
+			<a href="Tests/Test%203%20chapter%206%2c%209%2c%2010%20and%2019%20key.doc">key</a>
+			</b></p>
+		</td>
 	</tr>
 	<tr>
-		<td width="348" align="center">
-		<font color="#00FFFF"><b>Chapter 6 and 19</b></td>
-		<td width="518" align="center">
-		<a href="Chapter%2019%20Help%20Sheet.doc">Chapter 19 Summary Sheet</a><br>
-		<a href="Chapter%205%20Help%20Sheet.doc">Chapter 6 Summary Sheet</a></td>
+		<td><b>Chapter 6 and 19</b></td>
+		<td>
+			<a href="Chapter%2019%20Help%20Sheet.doc">Chapter 19 Summary Sheet</a>
+			<br>
+			<a href="Chapter%205%20Help%20Sheet.doc">Chapter 6 Summary Sheet</a>
+		</td>
 	</tr>
 	<tr>
-		<td width="348" align="center"><font size="7" color="#C0C0C0"><i>Chapter 
-		16/17</i></td>
-		<td width="518" align="center">
-		<font size="7" color="#C0C0C0"><i>Chapter 16/17</i></td>
+		<th colspan="2">Chapter 16/17</td>
 	</tr>
 	<tr>
-		<td width="348" align="center"><font color="#00FFFF">Handouts</td>
-		<td width="518" align="center"><b>
-		<a href="../../chemistry_pages/Handouts/Spring_2009/Unit_9_acid_Base/calculation%20square.doc">
-		Calculation Square</a></b></td>
+		<td><b>Handouts<b></td>
+		<td><b>
+			<a href="../../chemistry_pages/Handouts/Spring_2009/Unit_9_acid_Base/calculation%20square.doc">
+			Calculation Square</a></b>
+		</td>
 	</tr>
 	<tr>
-		<td width="348" align="center"><span class="style4">Handouts</span><b><font color="#00FF00"> </b></td>
-		<td width="518" align="center"><b><a href="NamingFlowChart.pdf">
-		Naming Flow Chart</a> <br>
-		<span class="style2">This flow chart includes naming rules for acids.&nbsp; 
-		The AP ion sheet also has the rules at the bottom of the page.</span></b></td>
+		<td class="greentext">Handouts</td>
+		<td>
+			<b><a href="NamingFlowChart.pdf">
+			Naming Flow Chart</a> <br>
+			This flow chart includes naming rules for acids.&nbsp; 
+			The AP ion sheet also has the rules at the bottom of the page.
+		</td>
 	</tr>
 	<tr>
-		<td width="348" align="center"><b>
-		<a href="http://dwb4.unl.edu/calculators/activities/DiproticAcid.html">
-		<font size="5" color="#FF00FF">Acid Base Titration </a></b></td>
-		<td width="518" align="center">
-		<b>
-		<a href="http://dwb4.unl.edu/calculators/activities/DiproticAcid.html">
-		Titration Lab Link</a></b><p>
-		<b>
-		<a href="Lab/Titration%20Lab%20addendum.doc">
-		addendum</a></b><p class="style1">
-		There is no prelab.&nbsp; Read the lab and addendum carefully!</td>
+		<td class="purpletext">
+			<b>
+			<a href="http://dwb4.unl.edu/calculators/activities/DiproticAcid.html">
+			Acid Base Titration </a></b>
+		</td>
+		<td>
+			<b>
+			<a href="http://dwb4.unl.edu/calculators/activities/DiproticAcid.html">
+			Titration Lab Link</a>
+			</b>
+			<p>
+				<b>
+				<a href="Lab/Titration%20Lab%20addendum.doc">
+				addendum</a></b>
+			</p>
+			<p><b>
+			There is no prelab.&nbsp; Read the lab and addendum carefully!
+			</p><b>
+		</td>
 	</tr>
 	<tr>
-		<td width="348" align="center"><font size="5" color="#00FF00"><b>ACID 
-		BASE TEST Review Chapter 16 and 17</b></td>
-		<td width="518" align="center">
-		<p>&nbsp;</p>
-		<p class="style1">
-		<a href="AP_Review/CHAPTER%2016%20AND%2017%20REVIEW.ppt">AP Questions 
-		Review</a></p>
-					</td>
+		<td class="greentext largetext">ACID BASE TEST Review Chapter 16 and 17</td>
+		<td>
+			<a href="AP_Review/CHAPTER%2016%20AND%2017%20REVIEW.ppt">AP Questions Review</a>
+		</td>
 	</tr>
 	<tr>
-		<td width="348" align="center"><i><font size="7" color="#C0C0C0">UNIT 1</i></td>
-		<td align="center" style="width: 568px">
-		<i><font size="7" color="#C0C0C0">UNIT 1</i></td>
+		<th colspan="2">UNIT 1</th>
 	</tr>
 	<tr>
-		<td width="348" align="center" height="24"><font color="#00FFFF"><b>
-		Binder</b></td>
-		<td align="center" height="24" style="width: 568px">
-		<b>
-		<a href="../AP_Chemistry_Syllabus_s11.doc">
-		Chemistry Syllabus</a></b></td>
+		<td class="cyantext">Binder</td>
+		<td>
+			<a href="../AP_Chemistry_Syllabus_s11.doc">Chemistry Syllabus</a></b>
+		</td>
 	</tr>
 	<tr>
-		<td width="348" align="center"><font color="#00FFFF"><b>Binder</b></td>
-		<td align="center" style="width: 568px"><b>
-		<a href="Student_Information_Sheet.doc">
-		Signature Form</a></b></td>
+		<td class="cyantext">Binder</td>
+		<td>
+		<a href="Student_Information_Sheet.doc">Signature Form</a></td>
 	</tr>
 	<tr>
-		<td width="348" align="center"><font color="#00FFFF"><b>Binder</b></td>
-		<td align="center" style="width: 568px">
-		<b>
-		<a href="../../chemistry_pages/Handouts/Spring_2009/Binder_handouts/Safety_Contract.pdf">
-		Safety Contract</a></b></td>
+		<td class="cyantext">Binder</td>
+		<td>
+			<a href="../../chemistry_pages/Handouts/Spring_2009/Binder_handouts/Safety_Contract.pdf">
+			Safety Contract</a>
+		</td>
 	</tr>
 	<tr>
-		<td width="348" align="center">&nbsp;</td>
-		<td align="center" style="width: 568px">
+		<td>#</td>
+		<td>
 		<a href="Social%20Media-%20Media%20Mobil%20Device%20Agreement.pdf">
 		Facebook Agreement</a></td>
 	</tr>
 	<tr>
-		<td width="348" align="center"><b><font color="#00FFFF">Periodic Table</b></td>
-		<td align="center" style="width: 568px"><b>
-		<a href="http://apcentral.collegeboard.com/apc/public/repository/ap10_frq_chemistry.pdf">
-		
-		<a href="http://apcentral.collegeboard.com/apc/public/repository/ap10_frq_chemistry.pdf">
-		<font size="5" color="#FFFFFF">Periodic Table</a></a><a href="http://apcentral.collegeboard.com/apc/public/repository/ap10_frq_chemistry.pdf"><font size="5" color="#FFFFFF">
-		<u>from this link print only page 2-5</u></a></b></td>
+		<td class="cyantext">Periodic Table</td>
+		<td class="largetext">
+			<b>
+			<a href="http://apcentral.collegeboard.com/apc/public/repository/ap10_frq_chemistry.pdf">
+			From this link print only page 2-5</a></b>
+		</td>
 	</tr>
 	<tr>
-		<td width="348" align="center"><b><font color="#00FF00">Chapter 1</b></td>
-		<td align="center" style="width: 568px"><b><a href="prefix_table.doc">
-		Prefix Handout</a></b></td>
+		<td class="greentext">Chapter 1</td>
+		<td><a href="prefix_table.doc">Prefix Handout</a></td>
 	</tr>
 	<tr>
-		<td width="348" align="center"><b><font color="#00FF00">Chapter 2</b></td>
-		<td align="center" style="width: 568px"><b><a href="Ion%20Sheet.pdf">
-		Ion Charts</a></b></td>
+		<td class="greentext">Chapter 2</td>
+		<td><a href="Ion%20Sheet.pdf">Ion Charts</a></td>
 	</tr>
 	<tr>
-		<td width="348" align="center"><b><font color="#00FF00">Chapter 2</b></td>
-		<td align="center" style="width: 568px"><b><a href="NamingFlowChart.pdf">
-		Naming Flow Chart</a></b></td>
+		<td class="greentext">Chapter 2</td>
+		<td><a href="NamingFlowChart.pdf">Naming Flow Chart</a></td>
 	</tr>
 	<tr>
-		<td width="348" align="center"><b><font color="#00FF00">Chapter 2</b></td>
-		<td align="center" style="width: 568px"><b>
-		<a href="Chapter_4_Chemical_Reaction/solubility_rules.pdf">
-		Solubility Rules</a></b><p>
-		<b>
-		<a href="Chapter_4_Chemical_Reaction/A%20Classification%20of%20AP%20Chemistry%20Reactions.doc">
-		Chemical Reaction Handout</a></b></td>
+		<td class="greentext">Chapter 2</td>
+		<td>
+			<a href="Chapter_4_Chemical_Reaction/solubility_rules.pdf">
+			Solubility Rules</a>
+			<p>
+				<a href="Chapter_4_Chemical_Reaction/A%20Classification%20of%20AP%20Chemistry%20Reactions.doc">
+				Chemical Reaction Handout</a>
+			</p>
+		</td>
 	</tr>
 	<tr>
-		<td width="348" align="center"><b><font color="#00FF00">Chapter 2</b></td>
-		<td align="center" style="width: 568px"><b>
-		<a href="Organic%20Help%20Sheet.doc">Organic 
-		Nomenclature Guide</a></b></td>
+		<td class="greentext">Chapter 2</td>
+		<td>
+			<a href="Organic%20Help%20Sheet.doc">Organic 
+			Nomenclature Guide</a>
+		</td>
 	</tr>
 	<tr>
-		<td width="348" align="center" class="style2">LAB #1</td>
-		<td align="center" style="width: 568px">
-		<a href="Lab/Formula_Hydrate_Procedure%5b1%5d.pdf"><span class="style1">
-		Hydrate Procedure</span></a><span class="style1"><br>
-		</span><a href="Lab/Formula_Hydrate_Wkst.pdf"><span class="style1">
-		Hydrate Worksheet</span></a></td>
+		<td>LAB #1</td>
+		<td>
+			<b><a href="Lab/Formula_Hydrate_Procedure%5b1%5d.pdf">Hydrate Procedure</a></b>
+			<br>
+			<b><a href="Lab/Formula_Hydrate_Wkst.pdf">Hydrate Worksheet</a></b>
+		</td>
 	</tr>
 	<tr>
-		<td width="348" align="center" height="26">
-		<font color="#FFFF00"><b>Test #1 2011</b></td>
-		<td width="518" align="center" height="26"><p><b>
-		<a href="Tests/Unit%201%20test%20chapters%201-3.doc">
-		Form A</a></b></p>
-		<p><b>
-		<a href="Tests/AP%20CHEM%20TEST%201%20Key.doc">
-		Key</a></b></td>
-	</tr>
-	<tr>
-		<td width="348" align="center" class="style2">&nbsp;</td>
-		<td align="center" style="width: 568px">
-		&nbsp;</td>
+		<td><b>Test #1 2011</b></td>
+		<td>
+			<a href="Tests/Unit%201%20test%20chapters%201-3.doc">Form A</a></b>
+			<br>
+			<b><a href="Tests/AP%20CHEM%20TEST%201%20Key.doc">Key</a></b>
+		</td>
 	</tr>
 	</table>
 
-<p>&nbsp;</p>
-
 </body>
-
-
-<!-- Mirrored from teachers.sduhsd.net/kshakeri/AP_Chemistry_Pages/Handouts/2012/handouts_13.htm by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 01 Jun 2015 23:20:47 GMT -->
 </html>
