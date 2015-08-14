@@ -90,6 +90,14 @@ table.homeworkproblems>tbody>tr>td {
 	padding: 10px;
 }
 
+/*
+ I don't like how this looks.
+
+table.homeworkproblems>tbody>tr>td:hover {
+	background-color: #444;
+}
+*/
+
 table.homeworkproblems>tbody>tr>td:first-child{
 	border-right: 2px solid green;
 }
